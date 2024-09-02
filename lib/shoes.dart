@@ -26,9 +26,10 @@ class _ShoesState extends State<Shoes> {
                   image: AssetImage(widget.image), fit: BoxFit.cover),
               boxShadow: [
                 BoxShadow(
-                    color: Colors.grey.shade400,
-                    blurRadius: 10,
-                    offset: const Offset(0, 10))
+                  color: Colors.grey.shade400,
+                  blurRadius: 10,
+                  offset: const Offset(0, 10),
+                )
               ]),
           child: Stack(
             children: <Widget>[
